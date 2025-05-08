@@ -14,7 +14,17 @@ app.post('/movies',()=>{
 
 });
 
+//UPDATE METHOD
+app.put('/movies/:id',()=>{
+
+});
+
+//DELETE METHOD
+app.delete('/movies/:id',()=>{
+
+});
+
 app.listen(8000,()=>{
     console.log(`Server is running at port 8000`);
     
-}); 
+});  
